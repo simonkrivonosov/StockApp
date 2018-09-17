@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="1ab-Q3-q8h">
+                                <rect key="frame" x="84" y="325" width="206" height="204"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="Eno-iS-oec">
+                                <rect key="frame" x="84" y="315" width="889.5" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TinkoffStocks" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbb-cw-X6I">
+                                <rect key="frame" x="93" y="207" width="194" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Eno-iS-oec" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="AUd-14-q2f"/>
+                            <constraint firstItem="1ab-Q3-q8h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="84" id="Jh1-mp-ZoP"/>
+                            <constraint firstAttribute="trailing" secondItem="fbb-cw-X6I" secondAttribute="trailing" constant="88" id="P7y-t1-DbW"/>
+                            <constraint firstItem="Eno-iS-oec" firstAttribute="leading" secondItem="1ab-Q3-q8h" secondAttribute="leading" id="Uhq-N1-NqT"/>
+                            <constraint firstItem="fbb-cw-X6I" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UpI-KJ-7Mi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1ab-Q3-q8h" secondAttribute="trailing" constant="85" id="Ury-A7-CwD"/>
+                            <constraint firstItem="fbb-cw-X6I" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="194:667" id="Waf-Fs-FJ8"/>
+                            <constraint firstItem="fbb-cw-X6I" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="187" id="cAc-Ae-0Lb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1ab-Q3-q8h" secondAttribute="bottom" constant="138" id="cPc-9w-GWa"/>
+                            <constraint firstItem="Eno-iS-oec" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="4:3" id="hWv-7u-z2G"/>
+                            <constraint firstItem="1ab-Q3-q8h" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="305" id="uPx-VL-HKL"/>
+                            <constraint firstItem="Eno-iS-oec" firstAttribute="top" secondItem="fbb-cw-X6I" secondAttribute="bottom" constant="68" id="wvf-uz-E6j"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="images" width="200" height="200"/>
+    </resources>
+</document>
